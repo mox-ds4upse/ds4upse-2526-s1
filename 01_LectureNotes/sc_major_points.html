@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1a255ef099e7baca95cb842da0f51c30 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1a255ef099e7baca95cb842da0f51c30" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1a255ef099e7baca95cb842da0f51c30 = L.map(
+                "map_1a255ef099e7baca95cb842da0f51c30",
+                {
+                    center: [14.5995, 120.9842],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ac5cae1308f0e0d774152641cde171c2 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ac5cae1308f0e0d774152641cde171c2.addTo(map_1a255ef099e7baca95cb842da0f51c30);
+        
+    
+            var marker_a427fbc3f3e2c071f4f95cdc4490aa19 = L.marker(
+                [14.6504882, 121.075221],
+                {
+}
+            ).addTo(map_1a255ef099e7baca95cb842da0f51c30);
+        
+    
+            var icon_50ae8bce0a37e7f18feaa1b204dc8940 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4f4599b7619b4ca69ee30edec3d7876f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_100c6c792d7eaa574adfe9966d4df63a = $(`<div id="html_100c6c792d7eaa574adfe9966d4df63a" style="width: 100.0%; height: 100.0%;">U.P. Town Center</div>`)[0];
+                popup_4f4599b7619b4ca69ee30edec3d7876f.setContent(html_100c6c792d7eaa574adfe9966d4df63a);
+            
+        
+
+        marker_a427fbc3f3e2c071f4f95cdc4490aa19.bindPopup(popup_4f4599b7619b4ca69ee30edec3d7876f)
+        ;
+
+        
+    
+    
+                marker_a427fbc3f3e2c071f4f95cdc4490aa19.setIcon(icon_50ae8bce0a37e7f18feaa1b204dc8940);
+            
+    
+            var marker_6a9709b71fa2f8221ddaa38c093918ad = L.marker(
+                [14.7358199, 121.0603393],
+                {
+}
+            ).addTo(map_1a255ef099e7baca95cb842da0f51c30);
+        
+    
+            var icon_7ecba932aaed9a169e07403f420ef405 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c49d4ae805017dc55629cf003baff311 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1ef5ff5bcec21a7a8a5639b1e7aadd9 = $(`<div id="html_e1ef5ff5bcec21a7a8a5639b1e7aadd9" style="width: 100.0%; height: 100.0%;">Fairview Terraces</div>`)[0];
+                popup_c49d4ae805017dc55629cf003baff311.setContent(html_e1ef5ff5bcec21a7a8a5639b1e7aadd9);
+            
+        
+
+        marker_6a9709b71fa2f8221ddaa38c093918ad.bindPopup(popup_c49d4ae805017dc55629cf003baff311)
+        ;
+
+        
+    
+    
+                marker_6a9709b71fa2f8221ddaa38c093918ad.setIcon(icon_7ecba932aaed9a169e07403f420ef405);
+            
+    
+            var marker_1a78831a238b1ef7c2b11c0ef6c0b007 = L.marker(
+                [14.5910506, 121.0598379],
+                {
+}
+            ).addTo(map_1a255ef099e7baca95cb842da0f51c30);
+        
+    
+            var icon_f8469e0a98a20139d3cb2315c1e8b812 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d33fb3e1dcd0c628b0588e1e9a72a803 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc93d6badb670d4dcca4de059cbafad2 = $(`<div id="html_dc93d6badb670d4dcca4de059cbafad2" style="width: 100.0%; height: 100.0%;">Robinsons Galleria</div>`)[0];
+                popup_d33fb3e1dcd0c628b0588e1e9a72a803.setContent(html_dc93d6badb670d4dcca4de059cbafad2);
+            
+        
+
+        marker_1a78831a238b1ef7c2b11c0ef6c0b007.bindPopup(popup_d33fb3e1dcd0c628b0588e1e9a72a803)
+        ;
+
+        
+    
+    
+                marker_1a78831a238b1ef7c2b11c0ef6c0b007.setIcon(icon_f8469e0a98a20139d3cb2315c1e8b812);
+            
+    
+            var marker_43b08f1859599b4c51115f2c0199bdd6 = L.marker(
+                [14.7342175, 121.0573914],
+                {
+}
+            ).addTo(map_1a255ef099e7baca95cb842da0f51c30);
+        
+    
+            var icon_96316e2c272cca1433af257362b3278a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bf8fe75b0c696896e51a4caa512f99de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a8f2ee9eccf32313ab25179db8ea132 = $(`<div id="html_5a8f2ee9eccf32313ab25179db8ea132" style="width: 100.0%; height: 100.0%;">SM City Fairview</div>`)[0];
+                popup_bf8fe75b0c696896e51a4caa512f99de.setContent(html_5a8f2ee9eccf32313ab25179db8ea132);
+            
+        
+
+        marker_43b08f1859599b4c51115f2c0199bdd6.bindPopup(popup_bf8fe75b0c696896e51a4caa512f99de)
+        ;
+
+        
+    
+    
+                marker_43b08f1859599b4c51115f2c0199bdd6.setIcon(icon_96316e2c272cca1433af257362b3278a);
+            
+    
+            var marker_fe0da5b826cb514dfe2b58bf02d81a91 = L.marker(
+                [14.5859462, 121.0565345],
+                {
+}
+            ).addTo(map_1a255ef099e7baca95cb842da0f51c30);
+        
+    
+            var icon_9432f907c938afeb259ce76c2dc79266 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1cdeb674b8c45ea812dedba8f534282e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b33ff132249f9803f420c0c394378636 = $(`<div id="html_b33ff132249f9803f420c0c394378636" style="width: 100.0%; height: 100.0%;">SM Megamall</div>`)[0];
+                popup_1cdeb674b8c45ea812dedba8f534282e.setContent(html_b33ff132249f9803f420c0c394378636);
+            
+        
+
+        marker_fe0da5b826cb514dfe2b58bf02d81a91.bindPopup(popup_1cdeb674b8c45ea812dedba8f534282e)
+        ;
+
+        
+    
+    
+                marker_fe0da5b826cb514dfe2b58bf02d81a91.setIcon(icon_9432f907c938afeb259ce76c2dc79266);
+            
+    
+            var marker_9d30f61347877c1cbbd25989f49abef4 = L.marker(
+                [14.5505331752531, 121.056084915362],
+                {
+}
+            ).addTo(map_1a255ef099e7baca95cb842da0f51c30);
+        
+    
+            var icon_55c022ea691e8413e2f7e3492241acfa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_50dd4f769931b1d72b01b0733ade8eae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30a0c13b2fc2acebad3180bfb70a527c = $(`<div id="html_30a0c13b2fc2acebad3180bfb70a527c" style="width: 100.0%; height: 100.0%;">Market! Market!</div>`)[0];
+                popup_50dd4f769931b1d72b01b0733ade8eae.setContent(html_30a0c13b2fc2acebad3180bfb70a527c);
+            
+        
+
+        marker_9d30f61347877c1cbbd25989f49abef4.bindPopup(popup_50dd4f769931b1d72b01b0733ade8eae)
+        ;
+
+        
+    
+    
+                marker_9d30f61347877c1cbbd25989f49abef4.setIcon(icon_55c022ea691e8413e2f7e3492241acfa);
+            
+    
+            var marker_4421630c50f45daf0980565f22cb837a = L.marker(
+                [14.5805504, 121.0558968],
+                {
+}
+            ).addTo(map_1a255ef099e7baca95cb842da0f51c30);
+        
+    
+            var icon_ce816feb6b7e190f0d3b38f6f8e46ef6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_27e880620995265a67e37d0ae37dab41 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a30c853dc56088f20e088cffe5403a3 = $(`<div id="html_2a30c853dc56088f20e088cffe5403a3" style="width: 100.0%; height: 100.0%;">Shangri-La Plaza</div>`)[0];
+                popup_27e880620995265a67e37d0ae37dab41.setContent(html_2a30c853dc56088f20e088cffe5403a3);
+            
+        
+
+        marker_4421630c50f45daf0980565f22cb837a.bindPopup(popup_27e880620995265a67e37d0ae37dab41)
+        ;
+
+        
+    
+    
+                marker_4421630c50f45daf0980565f22cb837a.setIcon(icon_ce816feb6b7e190f0d3b38f6f8e46ef6);
+            
+    
+            var marker_812a370c7fcdc464af7f54d6b50f6dee = L.marker(
+                [14.5467918, 121.0543353],
+                {
+}
+            ).addTo(map_1a255ef099e7baca95cb842da0f51c30);
+        
+    
+            var icon_116b6db8b4891fbf6ca45609468403f9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_90e8c7c2b6c12bbd4d3387d4bdefa804 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0137ff42bb33129497004cac06c185b5 = $(`<div id="html_0137ff42bb33129497004cac06c185b5" style="width: 100.0%; height: 100.0%;">SM Aura</div>`)[0];
+                popup_90e8c7c2b6c12bbd4d3387d4bdefa804.setContent(html_0137ff42bb33129497004cac06c185b5);
+            
+        
+
+        marker_812a370c7fcdc464af7f54d6b50f6dee.bindPopup(popup_90e8c7c2b6c12bbd4d3387d4bdefa804)
+        ;
+
+        
+    
+    
+                marker_812a370c7fcdc464af7f54d6b50f6dee.setIcon(icon_116b6db8b4891fbf6ca45609468403f9);
+            
+    
+            var marker_8e42ff6103788896eed7ec4d05bb0da1 = L.marker(
+                [14.6219086807841, 121.052876282087],
+                {
+}
+            ).addTo(map_1a255ef099e7baca95cb842da0f51c30);
+        
+    
+            var icon_13c5037d63762dc145432f9b7578f46d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_46f894be97f90b4cd715703830dbcfd4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1468238e83226118d3cdc8ed2875f274 = $(`<div id="html_1468238e83226118d3cdc8ed2875f274" style="width: 100.0%; height: 100.0%;">Gateway Mall</div>`)[0];
+                popup_46f894be97f90b4cd715703830dbcfd4.setContent(html_1468238e83226118d3cdc8ed2875f274);
+            
+        
+
+        marker_8e42ff6103788896eed7ec4d05bb0da1.bindPopup(popup_46f894be97f90b4cd715703830dbcfd4)
+        ;
+
+        
+    
+    
+                marker_8e42ff6103788896eed7ec4d05bb0da1.setIcon(icon_13c5037d63762dc145432f9b7578f46d);
+            
+    
+            var marker_454f3b4d75038020e27ac5a297a5109d = L.marker(
+                [14.4171299, 121.0412349],
+                {
+}
+            ).addTo(map_1a255ef099e7baca95cb842da0f51c30);
+        
+    
+            var icon_58d563f9a2f2ede007e75fcd0168d95a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d8462ffd5760f5c953321fb9003e9eb8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_443fc0ffd775f9951125da3c667f3624 = $(`<div id="html_443fc0ffd775f9951125da3c667f3624" style="width: 100.0%; height: 100.0%;">Festival Alabang</div>`)[0];
+                popup_d8462ffd5760f5c953321fb9003e9eb8.setContent(html_443fc0ffd775f9951125da3c667f3624);
+            
+        
+
+        marker_454f3b4d75038020e27ac5a297a5109d.bindPopup(popup_d8462ffd5760f5c953321fb9003e9eb8)
+        ;
+
+        
+    
+    
+                marker_454f3b4d75038020e27ac5a297a5109d.setIcon(icon_58d563f9a2f2ede007e75fcd0168d95a);
+            
+    
+            var marker_e3055b4beaf2a0c5165e92a81607526b = L.marker(
+                [14.5646479, 121.0364352],
+                {
+}
+            ).addTo(map_1a255ef099e7baca95cb842da0f51c30);
+        
+    
+            var icon_82071b76acdd7218163b0bc9a6d361e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_edf2156e04a04a40bf284628c849a7e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_224ba7a0b48aed20cf4c27a129b47cbb = $(`<div id="html_224ba7a0b48aed20cf4c27a129b47cbb" style="width: 100.0%; height: 100.0%;">Power Plant Mall</div>`)[0];
+                popup_edf2156e04a04a40bf284628c849a7e6.setContent(html_224ba7a0b48aed20cf4c27a129b47cbb);
+            
+        
+
+        marker_e3055b4beaf2a0c5165e92a81607526b.bindPopup(popup_edf2156e04a04a40bf284628c849a7e6)
+        ;
+
+        
+    
+    
+                marker_e3055b4beaf2a0c5165e92a81607526b.setIcon(icon_82071b76acdd7218163b0bc9a6d361e5);
+            
+    
+            var marker_3b404bc8481d48bb2832166763417021 = L.marker(
+                [14.6533554, 121.0333699],
+                {
+}
+            ).addTo(map_1a255ef099e7baca95cb842da0f51c30);
+        
+    
+            var icon_76ea8f9a6c0b66069742497b2cc90b1d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_197fa7ca64cb281b9b438b6fcc2f5aac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_498db63fed46e3140642f0ea64cc08f3 = $(`<div id="html_498db63fed46e3140642f0ea64cc08f3" style="width: 100.0%; height: 100.0%;">Trinoma</div>`)[0];
+                popup_197fa7ca64cb281b9b438b6fcc2f5aac.setContent(html_498db63fed46e3140642f0ea64cc08f3);
+            
+        
+
+        marker_3b404bc8481d48bb2832166763417021.bindPopup(popup_197fa7ca64cb281b9b438b6fcc2f5aac)
+        ;
+
+        
+    
+    
+                marker_3b404bc8481d48bb2832166763417021.setIcon(icon_76ea8f9a6c0b66069742497b2cc90b1d);
+            
+    
+            var marker_2a665422056cac8a725ce2fedab5b374 = L.marker(
+                [14.6568193, 121.0304657],
+                {
+}
+            ).addTo(map_1a255ef099e7baca95cb842da0f51c30);
+        
+    
+            var icon_9b3ff823f8c5ce0624698c8c07da3b03 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0a1419d9bff2a37657845d8ae3aa41f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_251bac3a0bf338c23bb47ca7c8a231a6 = $(`<div id="html_251bac3a0bf338c23bb47ca7c8a231a6" style="width: 100.0%; height: 100.0%;">SM North EDSA</div>`)[0];
+                popup_0a1419d9bff2a37657845d8ae3aa41f8.setContent(html_251bac3a0bf338c23bb47ca7c8a231a6);
+            
+        
+
+        marker_2a665422056cac8a725ce2fedab5b374.bindPopup(popup_0a1419d9bff2a37657845d8ae3aa41f8)
+        ;
+
+        
+    
+    
+                marker_2a665422056cac8a725ce2fedab5b374.setIcon(icon_9b3ff823f8c5ce0624698c8c07da3b03);
+            
+    
+            var marker_e9b165f7d56f24e678305224cc8b520f = L.marker(
+                [14.4230776, 121.0298681],
+                {
+}
+            ).addTo(map_1a255ef099e7baca95cb842da0f51c30);
+        
+    
+            var icon_139b17010853f71a55e66613854f49f9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_50a6739a9cacd6023abe26523f27fc00 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_047d1f664986861ad8d59fc008c57312 = $(`<div id="html_047d1f664986861ad8d59fc008c57312" style="width: 100.0%; height: 100.0%;">Alabang Town Center</div>`)[0];
+                popup_50a6739a9cacd6023abe26523f27fc00.setContent(html_047d1f664986861ad8d59fc008c57312);
+            
+        
+
+        marker_e9b165f7d56f24e678305224cc8b520f.bindPopup(popup_50a6739a9cacd6023abe26523f27fc00)
+        ;
+
+        
+    
+    
+                marker_e9b165f7d56f24e678305224cc8b520f.setIcon(icon_139b17010853f71a55e66613854f49f9);
+            
+    
+            var marker_5b0e9129593d66910b4f8c7c970cdce0 = L.marker(
+                [14.5510812, 121.0255029],
+                {
+}
+            ).addTo(map_1a255ef099e7baca95cb842da0f51c30);
+        
+    
+            var icon_fcbaed808169c68c464e475dc7e3af13 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2fa61d8a371f792b67755c89970eb266 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20a32f224612fce809dd039536e74794 = $(`<div id="html_20a32f224612fce809dd039536e74794" style="width: 100.0%; height: 100.0%;">Glorietta</div>`)[0];
+                popup_2fa61d8a371f792b67755c89970eb266.setContent(html_20a32f224612fce809dd039536e74794);
+            
+        
+
+        marker_5b0e9129593d66910b4f8c7c970cdce0.bindPopup(popup_2fa61d8a371f792b67755c89970eb266)
+        ;
+
+        
+    
+    
+                marker_5b0e9129593d66910b4f8c7c970cdce0.setIcon(icon_fcbaed808169c68c464e475dc7e3af13);
+            
+    
+            var marker_d3a43c2907900975b36fcdda1661f2c3 = L.marker(
+                [14.5529249653352, 121.021848291208],
+                {
+}
+            ).addTo(map_1a255ef099e7baca95cb842da0f51c30);
+        
+    
+            var icon_da8532f434898d2f43c59a794e56a1b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e705d37721f21fedf0b2ac4e1812b87c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b016dfc8f56596a53d87420605dd7cce = $(`<div id="html_b016dfc8f56596a53d87420605dd7cce" style="width: 100.0%; height: 100.0%;">Greenbelt</div>`)[0];
+                popup_e705d37721f21fedf0b2ac4e1812b87c.setContent(html_b016dfc8f56596a53d87420605dd7cce);
+            
+        
+
+        marker_d3a43c2907900975b36fcdda1661f2c3.bindPopup(popup_e705d37721f21fedf0b2ac4e1812b87c)
+        ;
+
+        
+    
+    
+                marker_d3a43c2907900975b36fcdda1661f2c3.setIcon(icon_da8532f434898d2f43c59a794e56a1b4);
+            
+    
+            var marker_e6858fb03585420dca8d7434b541a106 = L.marker(
+                [14.3764837, 121.011746],
+                {
+}
+            ).addTo(map_1a255ef099e7baca95cb842da0f51c30);
+        
+    
+            var icon_b5259d0adc0658d60dc2d50e5e867304 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1657282668cabd1c5d5741d358f9be1c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1831cc622dc2bee70d010fb641699559 = $(`<div id="html_1831cc622dc2bee70d010fb641699559" style="width: 100.0%; height: 100.0%;">Evia Lifestyle Center</div>`)[0];
+                popup_1657282668cabd1c5d5741d358f9be1c.setContent(html_1831cc622dc2bee70d010fb641699559);
+            
+        
+
+        marker_e6858fb03585420dca8d7434b541a106.bindPopup(popup_1657282668cabd1c5d5741d358f9be1c)
+        ;
+
+        
+    
+    
+                marker_e6858fb03585420dca8d7434b541a106.setIcon(icon_b5259d0adc0658d60dc2d50e5e867304);
+            
+    
+            var marker_e1c3c781866dac9eeea426b8cbd3b99e = L.marker(
+                [14.4332614, 121.0105665],
+                {
+}
+            ).addTo(map_1a255ef099e7baca95cb842da0f51c30);
+        
+    
+            var icon_bc3c32bda93af2d78b871f1e04eac336 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fb109c8fd7e9a271b960590df54f170b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b04074fb0ad38592e743ea3dff1832f = $(`<div id="html_0b04074fb0ad38592e743ea3dff1832f" style="width: 100.0%; height: 100.0%;">SM Southmall</div>`)[0];
+                popup_fb109c8fd7e9a271b960590df54f170b.setContent(html_0b04074fb0ad38592e743ea3dff1832f);
+            
+        
+
+        marker_e1c3c781866dac9eeea426b8cbd3b99e.bindPopup(popup_fb109c8fd7e9a271b960590df54f170b)
+        ;
+
+        
+    
+    
+                marker_e1c3c781866dac9eeea426b8cbd3b99e.setIcon(icon_bc3c32bda93af2d78b871f1e04eac336);
+            
+    
+            var marker_38c435a09bf031edfc591e80ba7d1c6a = L.marker(
+                [14.522424, 120.9897154],
+                {
+}
+            ).addTo(map_1a255ef099e7baca95cb842da0f51c30);
+        
+    
+            var icon_a35faadd4161e4ca9224d93c1c47d117 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9e9939d4c292bf50d53c247ea1d5cdcb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9757af7c5d86927032e5bc5f7962ba7d = $(`<div id="html_9757af7c5d86927032e5bc5f7962ba7d" style="width: 100.0%; height: 100.0%;">Ayala Malls Manila Bay</div>`)[0];
+                popup_9e9939d4c292bf50d53c247ea1d5cdcb.setContent(html_9757af7c5d86927032e5bc5f7962ba7d);
+            
+        
+
+        marker_38c435a09bf031edfc591e80ba7d1c6a.bindPopup(popup_9e9939d4c292bf50d53c247ea1d5cdcb)
+        ;
+
+        
+    
+    
+                marker_38c435a09bf031edfc591e80ba7d1c6a.setIcon(icon_a35faadd4161e4ca9224d93c1c47d117);
+            
+    
+            var marker_212ad892b77cc39ec2f1988133a34d8a = L.marker(
+                [14.5758375, 120.9839388],
+                {
+}
+            ).addTo(map_1a255ef099e7baca95cb842da0f51c30);
+        
+    
+            var icon_b332a57789833781d8ccc06fc43a4cf6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c374c0f40813d948a723248c098d553b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17838410d5656761f87d359be1721f3b = $(`<div id="html_17838410d5656761f87d359be1721f3b" style="width: 100.0%; height: 100.0%;">Robinsons Manila</div>`)[0];
+                popup_c374c0f40813d948a723248c098d553b.setContent(html_17838410d5656761f87d359be1721f3b);
+            
+        
+
+        marker_212ad892b77cc39ec2f1988133a34d8a.bindPopup(popup_c374c0f40813d948a723248c098d553b)
+        ;
+
+        
+    
+    
+                marker_212ad892b77cc39ec2f1988133a34d8a.setIcon(icon_b332a57789833781d8ccc06fc43a4cf6);
+            
+    
+            var marker_0cd2ce26e2040057be56744aaff374c6 = L.marker(
+                [14.5352172, 120.9819432],
+                {
+}
+            ).addTo(map_1a255ef099e7baca95cb842da0f51c30);
+        
+    
+            var icon_cc51d5aa9d29976cdd489a6b35c99e54 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_df775934e2f5530170bd55d8a9555f26 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_26d878da6cdf45e18a07e2a474987201 = $(`<div id="html_26d878da6cdf45e18a07e2a474987201" style="width: 100.0%; height: 100.0%;">SM Mall of Asia</div>`)[0];
+                popup_df775934e2f5530170bd55d8a9555f26.setContent(html_26d878da6cdf45e18a07e2a474987201);
+            
+        
+
+        marker_0cd2ce26e2040057be56744aaff374c6.bindPopup(popup_df775934e2f5530170bd55d8a9555f26)
+        ;
+
+        
+    
+    
+                marker_0cd2ce26e2040057be56744aaff374c6.setIcon(icon_cc51d5aa9d29976cdd489a6b35c99e54);
+            
+</script>
+</html>
